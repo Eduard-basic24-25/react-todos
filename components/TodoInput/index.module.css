@@ -1,0 +1,30 @@
+h1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+    color: rgb(125, 118, 118);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(125, 118, 118);
+    margin-bottom: 40px;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+.input:focus {
+    outline: none;
+    border-color: rgb(23, 39, 182);
+    font-size: 1.2em;
+}
+.label {
+    font-size: 1.5em;
+    color: rgb(125, 118, 118);
+    text-decoration: underline;
+}
